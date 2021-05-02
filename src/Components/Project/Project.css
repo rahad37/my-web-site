@@ -1,0 +1,45 @@
+.project-container{
+    background: url('../../image/color8.jpg') no-repeat center;
+    background-size: cover;
+    height: 675px;
+    /* width: 1100px; */
+    /* margin: 0 auto; */
+    position: relative;
+    z-index: 9;
+}
+.project-container::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(26, 25, 25, 0.6);
+    z-index: -1;
+}
+.box{
+    /* transition: .5s; */
+    box-shadow: 10px, 10px, 10px white;
+    /* display: none; */
+}
+.shape{
+    /* border: 2px solid white; */
+    /* width: 50%; */
+    background: #bdc3c7;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 20px #f39c12;
+    margin-top: 50px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.shape p{
+    font-weight: bold;
+}
+.shape:hover{
+    box-shadow: 0 0 30px lawngreen;
+}
+.okay{
+    /* width: 40%; */
+    margin-top: 50px;
+}

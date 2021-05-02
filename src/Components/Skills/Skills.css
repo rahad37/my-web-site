@@ -1,0 +1,20 @@
+.skill-container{
+    background: url('../../image/color1.jpg') no-repeat center;
+    background-size: cover;
+    height: 650px;
+    /* width: 1100px; */
+    /* margin: 0 auto; */
+    color: white;
+    position: relative;
+    z-index: 9;
+}
+.skill-container::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(26, 25, 25, 0.8);
+    z-index: -1;
+}

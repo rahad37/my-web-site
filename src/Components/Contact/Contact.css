@@ -1,0 +1,27 @@
+.footer-container{
+    background: url('../../image/footer1.jpg') no-repeat center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    z-index: 9;
+    
+}
+.footer-container::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(65, 58, 58, 0.8);
+    z-index: -1;
+}
+.sizing{
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+}
+.system{
+    margin-bottom: -15px;
+    font-weight: bold;
+}
